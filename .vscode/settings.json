@@ -1,21 +1,21 @@
 {
     "Lua.runtime.version": "Lua 5.1",
         "Lua.runtime.builtin": {
-        "basic": "disable",
-        "debug": "disable",
-        "io": "disable",
-        "math": "disable",
-        "os": "disable",
-        "package": "disable",
-        "string": "disable",
-        "table": "disable",
-        "utf8": "disable"
-    },
+            "basic": "disable",
+            "debug": "disable",
+            "io": "disable",
+            "math": "disable",
+            "os": "disable",
+            "package": "disable",
+            "string": "disable",
+            "table": "disable",
+            "utf8": "disable"
+        },
     "Lua.workspace.library": [
         "~\\.vscode\\extensions\\amstaffix.nilname-lua-api-1.3.0\\lua-definitions",
         "${env:AF_HOME}",
-        "~\\.vscode\\extensions\\ketho.wow-api-0.22.2\\Annotations\\Core",
-        "~\\.vscode\\extensions\\amstaffix.daemonic-lua-api-1.6.3\\lua-definitions"
+        "~\\.vscode\\extensions\\amstaffix.daemonic-lua-api-1.6.3\\lua-definitions",
+        "~\\.vscode\\extensions\\ketho.wow-api-0.22.3\\Annotations\\Core"
     ],
     "Lua.diagnostics.globals": [
         "WorldFrame",
